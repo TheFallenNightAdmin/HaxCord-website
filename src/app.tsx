@@ -1,12 +1,12 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Layout } from "@/components/layout";
-import Home from "@/pages/home";
-import Features from "@/pages/features";
-import Install from "@/pages/install";
-import Changelog from "@/pages/changelog";
-import Community from "@/pages/community";
-import NotFound from "@/pages/not-found";
+import { Layout } from "./components/layout";  // Changed from "@/components/layout"
+import Home from "./pages/home";               // Changed from "@/pages/home"
+import Features from "./pages/features";       // Changed from "@/pages/features"
+import Install from "./pages/install";         // Changed from "@/pages/install"
+import Changelog from "./pages/changelog";     // Changed from "@/pages/changelog"
+import Community from "./pages/community";     // Changed from "@/pages/community"
+import NotFound from "./pages/not-found";      // Changed from "@/pages/not-found"
 
 const queryClient = new QueryClient();
 

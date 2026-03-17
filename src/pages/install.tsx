@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { TerminalBlock } from "@/components/terminal-block";
+import { TerminalBlock } from "../components/terminal-block";
 import { Download, Terminal } from "lucide-react";
 
 export default function Install() {

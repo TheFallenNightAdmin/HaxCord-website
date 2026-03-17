@@ -8,7 +8,7 @@ export default function Home() {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex flex-col">
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden px-4 py-20">
         <img src={`${import.meta.env.BASE_URL}images/cyber-bg.png`} alt="Cyber Background"
-          className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none mix-blend-screen" />
+          className="absolute inset-0 z-[999] w-full h-full object-cover opacity-20 pointer-events-none mix-blend-screen" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background pointer-events-none" />
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
           <div className="font-mono text-sm md:text-base text-secondary tracking-widest uppercase mb-4">

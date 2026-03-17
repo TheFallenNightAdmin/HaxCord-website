@@ -34,7 +34,7 @@ export default function Home() {
       <section className="border-y border-border bg-black/50 backdrop-blur-md py-16 relative z-20">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-12 text-center divide-y sm:divide-y-0 sm:divide-x divide-border/50">
           <div className="pt-6 sm:pt-0">
-            <div className="text-5xl font-display font-black text-white mb-2">1200+</div>
+            <div className="text-5xl font-display font-black text-white mb-2">1</div>
             <div className="font-mono text-xs text-primary tracking-[0.2em] uppercase">Total Downloads</div>
           </div>
           <div className="pt-6 sm:pt-0">
